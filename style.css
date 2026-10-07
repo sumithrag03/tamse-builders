@@ -4180,3 +4180,53 @@ body {
         font-size: 16px;
     }
 }
+/* ==========================================
+   TABLET + MOBILE NAV CENTER
+========================================== */
+
+@media (max-width: 1024px) {
+
+    .main-nav {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .main-nav a {
+        text-align: center;
+    }
+
+}
+/* ==========================================
+   TABLET + MOBILE FOOTER CENTER
+========================================== */
+
+@media (max-width: 1024px) {
+
+    .footer-container {
+        text-align: center;
+    }
+
+    .footer-column {
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-column p {
+        text-align: center;
+    }
+
+    .footer-links {
+        align-items: center;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+
+    .footer-bottom {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+}
